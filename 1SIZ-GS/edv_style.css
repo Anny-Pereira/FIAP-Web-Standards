@@ -12,10 +12,10 @@ width: 100%;
 }
 .titulo{
     color: #337AB7;
-    font-size: 20px;
+    font-size: 35px;
     font-family: League Spartan;
     font-weight: bold;
-    margin: 5px;
+    margin-bottom: 20px;
     padding:5px;
 }
 .titulo1{
@@ -24,33 +24,38 @@ width: 100%;
     font-family: League Spartan;
     font-weight: bold;
     text-align: justify;
-    margin: 0px;
-    padding:0px;
+    margin-bottom: 30px;
 }
 .titulo2{
     color: #337AB7;
     font-family: League Spartan;
+    font-size: 25px;
     font-weight: bold;
-    margin: 8px;
-    padding:5px;
+    margin-bottom: 37px;
     text-align: center;
 }
 #titulogrande{
     color: #337AB7;
-    font-size: 30px;
+    font-size: 60px;
     font-family: League Spartan;
     font-weight: bold;
-    margin: 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
     padding:0px;
     text-align: center;
     display:block;
 }
 p{
-    font-size: 20px;
-    text-align: justify;
-    text-indent: 30px;
-    color:#383737;
+    color: #383737;
+    font-family: League Spartan;
+    font-size: 18px;
+    text-align: start;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 40px;
+    line-height: 40px;
 }
+
 aside{
     display:block;
     width:15%;
@@ -60,13 +65,12 @@ aside{
 }
 ul{
     list-style: none;
-    margin:0px;
+    margin-bottom: 10px;
     padding:0px;
 }
 li{
-    margin:10px;
-    padding:0px;
-    font-size: 17px;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
 a{
     text-decoration: none;
@@ -74,6 +78,9 @@ a{
 }
 li a:hover{
      color: #337AB7;
+}
+.bottomM{
+    margin-bottom:40px ;
 }
 .exemplos{
     text-decoration: none;
@@ -100,6 +107,7 @@ li a:hover{
     margin:0px;
     margin-right: 10px;
     padding: 0%;
+    gap: 1em;
 }
 .imagem2{
     display: flex;
@@ -107,6 +115,7 @@ li a:hover{
 #exercicios{
     display: flex;
     width: 20%;
+    margin-bottom: 40px;
 }
 .exercicio{
     display:inline-block;
@@ -116,6 +125,10 @@ li a:hover{
 .imagem{
     margin:10px;
     padding: 10px;
+}
+.imagem2{
+    width: 80%;
+    right: 0px;
 }
 #relacionamentos{
     display:inline-block;

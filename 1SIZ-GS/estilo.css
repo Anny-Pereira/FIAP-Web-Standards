@@ -98,12 +98,12 @@ section {
 }
 
 .promo_slider{
-    width: 65%;
+    width: 60%;
 }
 
 .content_promo {
-    width: 350px;
-    height: 430px;
+    width: 25%;
+    height: 400px;
     background-color: #E4EBF2;
     border-radius: 1em;
     display: flex;
@@ -144,7 +144,7 @@ h2 {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 60px;
     font-weight: bold;
     color: #337AB7;
     font-family: League Spartan;
@@ -158,21 +158,25 @@ h1 {
     padding: 5em 2em;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 1em;
     margin-top: 1em;
 }
 
 .news_card {
-    width: 21%;
+    width: 18%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
+.news_card img{
+    width: 100%;
+}
+
 .news_card_body {
-    width: 258px;
+    width: 100%;
     background: white;
     height: 173px;
     border-radius: 0 0 1em 1em;
@@ -186,7 +190,7 @@ h1 {
     color: #545353;
     font-family: League Spartan;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 .container_contrate h2{
@@ -204,7 +208,7 @@ h1 {
 }
 
 .constraste_content img{
-    width: 40%;
+    width: 38%;
 }
 
 .hr_footer{
@@ -239,7 +243,7 @@ footer{
 }
 
 .footer_imgs{
-    width: 440px;
+    width: 420px;
 
     display: flex;
     flex-direction: column;
@@ -291,7 +295,7 @@ footer{
 .container_saude h1{
     color: #337AB7;
     font-family: League Spartan;
-    font-size: 70px;
+    font-size: 60px;
     font-weight: bold;
     padding-bottom: 43px;
 }
@@ -311,8 +315,8 @@ footer{
 .info_content h2{
     color: #337AB7;
     font-family: League Spartan;
-    font-size: 50px;
-    font-weight: bold;
+    font-size:40px;
+    font-weight: 700;
 }
 .content_oque span{
     color: #383737;
@@ -333,7 +337,7 @@ footer{
 .container_deveres h2{
     color: #337AB7;
     font-family: League Spartan;
-    font-size: 50px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 50px;
 }
@@ -349,7 +353,7 @@ footer{
 .content_porque span{
     color: #383737;
     font-family: League Spartan;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     font-weight: 500;
     text-decoration: none;
@@ -374,7 +378,7 @@ footer{
     color: #383737;
     font-family: League Spartan;
     font-size: 20px;
-    text-align: center;
+    text-align: start;
     font-weight: 500;
     text-decoration: none;
     margin-bottom: 40px;
