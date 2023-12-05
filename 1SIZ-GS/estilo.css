@@ -275,3 +275,117 @@ footer{
 .footer_nav ul{
     list-style: none;
 }
+
+
+
+
+/* Tela Saúde */
+
+.container_saude{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container_saude h1{
+    color: #337AB7;
+    font-family: League Spartan;
+    font-size: 70px;
+    font-weight: bold;
+    padding-bottom: 43px;
+}
+
+.info_content{
+    width: 887px;
+    height: 490px;
+    background: linear-gradient(96deg, rgba(51, 159, 183, 0.32) 1.66%, rgba(51, 159, 183, 0.00) 95.49%);
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 150px;
+}
+
+.info_content h2{
+    color: #337AB7;
+    font-family: League Spartan;
+    font-size: 50px;
+    font-weight: bold;
+}
+.content_oque span{
+    color: #383737;
+    font-family: League Spartan;
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: justify;
+    line-height: 40px;
+}
+
+.content_oque{
+    width: 712px;
+    height: 276px;
+}
+
+.container_deveres h2{
+    color: #337AB7;
+    font-family: League Spartan;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.content_porque{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.content_porque span{
+    color: #383737;
+    font-family: League Spartan;
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+.content_porque img{
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.content_alimentos{
+    width: 80%;
+    display: flex;
+    align-items: start;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.content_alimentos span{
+    color: #383737;
+    font-family: League Spartan;
+    font-size: 23px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 40px;
+    line-height: 40px;
+}
+
+.content_alimentos img{
+    margin-bottom: 70px;
+}
+
+
+.bebidas_img{
+    display: flex;
+    margin-top: 80px;
+    width: 100%;
+    justify-content: space-between;
+    gap: 100px;
+}
