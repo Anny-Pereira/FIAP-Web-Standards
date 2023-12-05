@@ -158,12 +158,13 @@ h1 {
     padding: 5em 2em;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     border-radius: 1em;
     margin-top: 1em;
 }
 
 .news_card {
+    width: 21%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -316,7 +317,8 @@ footer{
 .content_oque span{
     color: #383737;
     font-family: League Spartan;
-    font-size: 23px;
+    font-size: 20px;
+    text-align: center;
     font-weight: 500;
     text-decoration: none;
     text-align: justify;
@@ -347,7 +349,8 @@ footer{
 .content_porque span{
     color: #383737;
     font-family: League Spartan;
-    font-size: 23px;
+    font-size: 20px;
+    text-align: center;
     font-weight: 500;
     text-decoration: none;
     margin-bottom: 40px;
@@ -370,7 +373,8 @@ footer{
 .content_alimentos span{
     color: #383737;
     font-family: League Spartan;
-    font-size: 23px;
+    font-size: 20px;
+    text-align: center;
     font-weight: 500;
     text-decoration: none;
     margin-bottom: 40px;
@@ -388,4 +392,12 @@ footer{
     width: 100%;
     justify-content: space-between;
     gap: 100px;
+}
+
+.bebidas_img img{
+    width: 25%;
+}
+
+footer img {
+    width: 70%;
 }
